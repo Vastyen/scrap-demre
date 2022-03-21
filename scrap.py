@@ -5,9 +5,6 @@ import numpy as np
 import csv
 import sqlite3
 
-
-
-
 con = sqlite3.connect("puntajes.db")
 cursor = con.cursor()
 
